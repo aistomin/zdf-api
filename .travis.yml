@@ -1,0 +1,12 @@
+dist: trusty
+language: java
+jdk:
+  - oraclejdk8
+branches:
+  only:
+    - master
+env:
+  global:
+    - MAVEN_OPTS="-XX:MaxPermSize=512m -Xmx2g"
+    - CODECOV_TOKEN="84279588-6635-4ff4-8f7f-e31b54666093"
+script: mvn clean install package
