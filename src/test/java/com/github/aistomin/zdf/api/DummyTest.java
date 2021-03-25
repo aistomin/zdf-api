@@ -14,7 +14,7 @@ public final class DummyTest {
      * Dummy test.
      */
     @Test
-    void ownField() {
+    void testOwnField() {
         final String test = "Test value";
         Assertions.assertEquals(test, new Dummy(test).ownField());
     }
