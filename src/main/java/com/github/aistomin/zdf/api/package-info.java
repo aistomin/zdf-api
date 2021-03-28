@@ -13,35 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.aistomin.zdf.api;
-
 /**
- * Dummy class. Will be removed soon.
- *
- * @since 1.0
+ * The root package of the "ZDF API" project.
  */
-public final class Dummy {
-
-    /**
-     * Dummy field.
-     */
-    private final String field;
-
-    /**
-     * Ctor.
-     *
-     * @param param Dummy param.
-     */
-    public Dummy(final String param) {
-        this.field = param;
-    }
-
-    /**
-     * Get dummy value.
-     *
-     * @return Dummy value.
-     */
-    public String ownField() {
-        return this.field;
-    }
-}
+package com.github.aistomin.zdf.api;
