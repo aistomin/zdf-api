@@ -7,7 +7,7 @@
     <artifactId>zdf-api</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <junitVersion>5.8.2</junitVersion>
+        <junitVersion>5.9.0-M1</junitVersion>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
         <encoding>UTF-8</encoding>
